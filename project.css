@@ -1,0 +1,363 @@
+body, h1, h2, h3, a, p, li{
+    font-family: 'Fraunces', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.rudiger {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+.alaba {
+    position: absolute;
+    bottom: 30%;
+    left: 29%;
+    color: #fff;
+}
+.first1 {
+    font-size: 90px;
+    font-family: 'Great Vibes', cursive;
+    padding: 5px 0;
+}
+.first3 {
+    padding-left: 1rem;
+    font-size: 40px;
+}
+.firstp {
+    font-size: 40px;
+    text-align: center; 
+}
+.secondsec {
+    position: relative;
+    background-color: blanchedalmond;
+    top: -5px;
+    text-align: center;
+}
+.move {
+    padding-bottom: 30px;
+    display: inline-block;
+    padding: 10% 0;
+}
+.imgs {
+    position: absolute;
+    height: 230px;
+}
+.img1 {
+    top: 95px;
+    left: 27%;
+}
+
+.img2 {
+    right: 27%;
+    top: 18%;
+}
+.modric {
+    border-radius: 50%;
+}
+.secondp {
+    font-size: 20px;
+    color: #000;
+}
+.lastsec {
+    text-align: center;
+    background: #faf0e1;
+    margin-top: -5px;
+}
+.second1 {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.second3 {
+    padding-bottom: 20px;
+}
+.nacho li{
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+    width: 24%;
+    margin: 20px 0;
+   } 
+.nacho li img{
+    width: 90%;
+    height: 350px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+   }
+.carvaj {
+    padding: 0 30px;
+}
+.vini {
+    padding-top: 10px;
+}
+
+.krooz {
+    padding: 5px 5px;
+    margin-top: 40px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    background:  #3a3737;
+}
+body {
+    text-align: center;
+}
+.third1 {
+    font-size: 50px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+.third3 {
+    font-size: 20px;
+}
+body h3 {
+    padding-bottom: 15px;
+}
+.camav {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mili {
+    padding: 20px 10px;
+}
+.tao {
+    padding-top: 16px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: white;
+    display: inline-block;
+    margin-top: 15px;
+}
+.cout {
+    padding-top: 20px;  
+}
+.verv {
+    padding: 0 20px;
+    height: 60px; 
+}
+.last {
+    background-color: blanchedalmond;
+    margin-top: -8px;
+    padding-bottom: 10px;
+}
+footer {
+    background-color: #3b1b03;
+    margin-top: -18px;
+}
+footer > p {
+    padding: 10px 0;
+    color: white;
+}
+/* Psuedo Class */
+.nacho li img:hover{
+    position: relative;
+    top: -9px;
+}
+.cout a img:hover{
+    position: relative;
+    top: -9px;
+}
+
+/* Media */
+@media screen and (min-width: 996px) and (max-width: 1120px) {
+    .img1 {
+        left: 20%;
+    }
+    
+    .img2 {
+        right: 20%;
+    }
+}
+@media screen and (min-width: 896px) and (max-width: 995px) {
+    .alaba {
+        left: 28%;
+        bottom: 45%;
+    }
+    .nacho li{
+        width: 22%;
+       } 
+    .nacho li img{
+        width: 90%;
+        height: 250px;
+        padding-right: 20px;
+       }
+    .carvaj {
+        height: 100px;
+    }
+    .img1 {
+        left: 14%;
+    }
+    
+    .img2 {
+        right: 14%;
+    }
+}
+@media screen and (min-width: 760px) and (max-width: 895px) {
+    .alaba {
+        left: 20%;
+        bottom: 55%;
+    }
+     .carvaj {
+        height: 100px;
+    }
+    .img1 {
+        left: 12%;
+    }
+    
+    .img2 {
+        right: 12%;
+    }
+    .nacho li img{
+        width: 95%;
+        height: 260px;
+       }
+    .nacho {
+        padding-left: 8px;
+        padding-right: 5px;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 759px) {
+    .first1 {
+        font-size: 60px;
+    }
+    .first3 {
+        font-size: 22px;
+    }
+    .firstp {
+        font-size: 22px; 
+    }
+     .alaba {
+        left: 17%;
+        bottom: 65%;
+    }
+    .img1 {
+        left: 12%;
+        top: 20%;
+    }
+    
+    .img2 {
+        right: 12%;
+    }
+    .modric {
+        height: 150px;
+    }
+    .imgs {
+        height: 120px;
+    }
+    .krooz {
+        font-size: 12px;
+    }
+   .nacho li img{
+        width: 97%;
+        height: 200px;
+       }
+     .nacho {
+        padding-left: 2px;
+        padding-right: 1px;
+    }
+    .carvaj {
+        height: 80px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .alaba {
+        left: 20%;
+        top: 10%;
+    }
+    .first1 {
+        font-size: 40px;
+    }
+    .first3 {
+        font-size: 18px;
+    }
+    .firstp {
+        font-size: 18px; 
+    }
+    .modric {
+        height: 120px;
+    }
+    .img1 {
+        left: 12%;
+        top: 20%;
+    }
+    
+    .img2 {
+        right: 12%;
+    }
+    .imgs {
+        height: 35%;
+    }
+    .secondp {
+        font-size: 18px;
+    }
+     .carvaj {
+        height: 60px;
+        padding: 0 8px;
+    }
+    .second1 {
+        font-size: 40px;
+    }
+    .third1 {
+        font-size: 40px;
+    }
+    .nacho li img{
+        width: 95%;
+        height: 140px;
+        margin-bottom: 0;
+        padding-bottom: 2px;
+       }
+    .nacho {
+        padding-left: 8px;
+        padding-right: 4px;
+    }
+    .krooz {
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 250px) and (max-width: 400px) {
+    .first1 {
+        font-size: 25px;
+    }
+    .first3 {
+        font-size: 12px;
+    }
+    .firstp {
+        font-size: 12px; 
+    }
+    .alaba {
+        left: 20%;
+        top: 30px;
+    }
+    .modric {
+        height: 100px;
+    }
+    .img1 {
+        left: 12%;
+        top: 20%;
+    }
+    
+    .img2 {
+        right: 12%;
+    }
+    .imgs {
+        height: 30%;
+    }
+    .nacho li img{
+        width: 98%;
+        height: 120px;
+        padding-bottom: 2px;
+       }
+    .nacho li {
+        width: 23%;
+    }
+    .carvaj {
+        height: 50px;
+        padding: 0 5px;
+    }
+    .verv {
+        height: 40px;
+    }
+}
